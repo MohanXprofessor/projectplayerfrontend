@@ -1,0 +1,12 @@
+<h2>Player Details</h2>
+<hr>
+<div *ngIf="Player">
+<div>
+    <label > <b>Player-Id:</b>  </label>{{Player.playerId}}
+</div>
+
+<div>
+    <label> <b>Player-Name:</b>    </label>{{Player.playerName}}
+</div>
+</div> <br>
+<button (click)="list()" class="btn btn-primary">Back to Player</button>
