@@ -9,7 +9,7 @@
                 <tr>
                     <th>Player-Id</th>
                     <th>Player-Name</th>
-                    <th rowspan="3">Action Operation</th>
+                    <th rowspan="3">Operation</th>
 
                 </tr>
             </thead>
@@ -22,8 +22,8 @@
 
                     <td>
                         <button (click)="deletePlayer(p.playerId)" class="btn btn-danger">Delete</button>
-                        <button (click)="playerDetails(p.playerId)" style="margin-left: 10px">Details</button>
-                        <button (click)="updateDetails(p.playerId)" style="margin-left: 10px">Edit</button>
+                        <button (click)="playerDetails(p.playerId)" class="btn btn-primary"style="margin-left: 10px">Details</button>
+                        <button (click)="updateDetails(p.playerId)" class="btn btn-info"style="margin-left: 10px">Edit</button>
                     </td>
 
                 </tr>

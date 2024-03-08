@@ -36,7 +36,7 @@ export class UpdateplayerComponent {
   {
     this.service.updatePlayer(this.Player).subscribe((data)=>{
       console.log(data);
-      this.Player=new Player();
+      // this.Player=new Player();
       this.goto();
     })
   }

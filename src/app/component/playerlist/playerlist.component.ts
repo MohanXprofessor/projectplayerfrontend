@@ -14,11 +14,10 @@ export class PlayerlistComponent {
 
   public players: Observable<Player[]>=of([]);
 
-  constructor(private service:PlayerserviceService,
-    private router: Router)
-    {
-      
-    }
+  constructor(private service:PlayerserviceService,private router: Router)
+  {
+    
+  }
 
     ngOnInit(){
       this.getAll();

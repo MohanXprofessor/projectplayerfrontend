@@ -7,23 +7,10 @@ import { UpdateplayerComponent } from './component/updateplayer/updateplayer.com
 
 const routes: Routes = [
 
-  {
-    path:'add',
-    component:CreateplayerComponent
-  },
-  {
-    path:'list',
-    component:PlayerlistComponent
-  
-  },
-  {
-  path:'details/:playerId',
-  component:PlayerdetailsComponent
-  },
-  {
-    path:'update/:playerId',
-    component:UpdateplayerComponent
-  }
+  { path: 'add',component: CreateplayerComponent },
+  { path: 'list',component: PlayerlistComponent  },
+  { path: 'details/:playerId',component: PlayerdetailsComponent },
+  { path: 'update/:playerId',component: UpdateplayerComponent }
 
 ];
 
